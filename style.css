@@ -1,7 +1,5 @@
-
-
 /* Font Declarations*/
-@font-face { 
+@font-face {
 	font-family: 'Noto Mono';
 	src: url("fonts/NotoMono-Regular");
 }
@@ -12,84 +10,64 @@
 }
 
 
-/* Top */
-.fixed {
-  position: fixed;
+/* Header */
+ul.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b8b8b8;
 }
-#top {
-  top: 0px;
-  background: white;
-  margin-bottom: auto;
-  width: 100%;
-  height: auto;
-  display: block;
-}
-#Title {
-  color: #708090;
-  line-height: 0.8px;
-  font-size: 42px;
-  text-align: center;
-  font-family: 'Noto Sans UI', Verdana, sans-serif;
-  white-space: nowrap;
-  display: block;
-}
-.Links {
-  text-align: right;
-}
-.Links a {
-  font-size: 16px;
-  font-family: 'Noto Sans UI', Arial, sans-serif;
-  color: black;
-  text-decoration: none;
-  padding-right: 10px;
-}
-.button {
-  text-align: centre;
-  text-decoration: none;
+ul.topnav li {float: left;}
+ul.topnav li p {
   display: inline-block;
-}
-
-
-/******************************** TEXT EFFECTS ********************************/
-.hover-changecolor {
-  transition: all 0.3s;
-}
-.hover-changecolor:hover {
-  background: grey;
-}
-.hover-changecolor a:hover {
+  text-align: center;
   color: white;
-}
-
-.hover-grow {
-  transition: 0.1s;
-}
-.hover-grow:hover {
-  transform: scale(1,2);
-}
-
-
-/********************************** NAV MENU **********************************/
-.nav-menu {
-  background-color: lightgrey;
-}
-.nav-link {
-  display: inline-block;
-}
-.nav-link a {
-  color: #000000;
-  font-family: 'Noto Sans UI', Verdana, sans-serif;
+  padding: 0px 16px;
   text-decoration: none;
-  margin-right: 16px;
+  font-family: "Noto Mono";
+  font-size: 16px;
 }
-ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  min-width: 400px;
+ul.topnav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 16px;
+}
+ul.topnav li a:hover {background-color: #808080}
+ul.topnav li.icon {display: none;}
+.active {background-color: #96cefd}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
 }
 
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
 
 /********************************** SECTIONS **********************************/
 section {
@@ -124,4 +102,3 @@ p {
 #WorkExperience {
   text-align: center;
 }
-

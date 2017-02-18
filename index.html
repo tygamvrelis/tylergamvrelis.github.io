@@ -1,50 +1,53 @@
-<!DOCTYPE html>
-
-<html>
-
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="myIcon.ico" type="image/x-icon" />
-    <link rel="icon" href="/images/myIcon.png" types="image/png" />
-    <script src="script.js"></script>
-  </head>
-
-  <body>
-    <div class="fixed" id=top>
-      <h1 id="Title">TYLER GAMVRELIS</h1>
-      <button type="button" class="Links hover-changecolor">
-        <img alt="LinkedIn" height="16" width="16" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
-        <a href="https://linkedin.com/in/TylerGamvrelis" target="_blank">LinkedIn</a>
-      </button>
-    </div>
-    
-    <div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <section id="AboutMe">
-        <h2 class="headers" id="AboutMe">About Me</h2>
-        <p>I am an engineering science student with high academic standing and relevant work experience. I want to inform my interests and career path while solving “real-world” problems and forging meaningful professional relationships.</p>
-      </section>
-        
-      <section id="Education">
-          <h2 class="headers" id="Education">Education</h2>
-          <p>University of Toronto</p>
-          <p>Engineering Science</p>
-      </section>
-        
-      <section id="WorkExperience">
-          <h2 class="headers" id="WorkExperience">Work Experience</h2>
-          <p>Schneider Electric</p>
-          <img alt="Schneider Electric Logo" height="25" width="75" src="http://solar.schneider-electric.com/wp-content/uploads/2016/04/Schneider_Electric.svg_.png"/>
-      </section>
-        
-      <section id="Skills">
-          <h2 class="headers" id="Skills">Skills</h2>
-          <p>Words here</p>
-      </section>
-    </div>
-  </body>
-
+﻿<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tyler Gamvrelis</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" href="myIcon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/images/myIcon.png" types="image/png"/>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div>
+    <ul class="topnav">
+      <li><p id="name">Tyler Gamvrelis</p></li>
+      <li><ul class="topnav">
+          <li><a href="#about">About</a></li>
+          <li><a href="eduction">Education</a></li>
+          <li><a href="work">Work Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+        </ul></li>
+    </ul>
+  </div>
+  <div>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>I am an engineering science student with high academic standing and relevant work experience. I want to inform my interests and career path while solving “real-world” problems and forging meaningful professional relationships.</p>
+    </section>
+    <section id="education">
+      <h1>Education</h1>
+      <p>University of Toronto</p>
+      <p>Engineering Science</p>
+    </section>
+    <section id="work">
+      <h1>Work Experience</h1>
+      <h1>Schneider Electric</h1>
+      <img alt="Schneider Electric Logo" height="25" width="75" src="http://solar.schneider-electric.com/wp-content/uploads/2016/04/Schneider_Electric.svg_.png" />
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <p>Words here</p>
+    </section>
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>Email me anytime</p>
+    </section>
+  </div>
+</body>
 </html>
