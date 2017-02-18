@@ -72,6 +72,9 @@ ul.topnav li.icon {display: none;}
 /* Content */
 div.content {
     background-color: white;
+    width: 80%;
+    word-break: break-all;
+    white-space: normal;
 }
 div.content section {
   margin-top: 20px;
