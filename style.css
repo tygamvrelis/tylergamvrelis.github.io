@@ -90,19 +90,20 @@ div.content p {
   line-height: 0.8px;
   text-decoration: none;
   text-align: center;
+  white-space: normal;
 }
 div.content h1 {
   color: #000000;
-  font-size: 72px;
+  font-size: 36px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
   line-height: 0.8px;
-  text-decoration: solid;
+  text-decoration: none;
   text-align: center;
   white-space: nowrap;
 }
 div.content h2 {
   color: #96cefd;
-  font-size: 36px;
+  font-size: 22px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
   line-height: 0.8px;
   text-decoration: none;
