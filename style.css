@@ -10,7 +10,7 @@
 }
 
 
-/* Header */
+/* Nav menu */
 ul.topnav {
     position: fixed;
     top: 0;
@@ -69,8 +69,11 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-/********************************** SECTIONS **********************************/
-section {
+/* Content */
+div.content {
+    background-color: white;
+}
+div.content section {
   margin-top: 20px;
   margin-right: 0px;
   margin-bottom: 20px;
@@ -80,25 +83,20 @@ section {
   padding-bottom: 10px;
   padding-left: 20px;
 }
-p {
-  color: #000000;
+div.content p {
+  color: #;
   font-size: 16px;
   font-family: 'Noto Mono', Arial, sans-serif;
-  line-height: auto;
+  line-height: 0.8px;
+  text-decoration: none;
   text-align: center;
 }
-.headers {
+div.content h1 {
   color: #999999;
-  font-size: 32px;
+  font-size: 72px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
   line-height: 0.8px;
+  text-decoration: none;
   text-align: center;
   white-space: nowrap;
-}
-
-#AboutMe {
-}
-
-#WorkExperience {
-  text-align: center;
 }
