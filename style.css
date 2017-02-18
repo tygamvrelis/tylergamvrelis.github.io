@@ -1,12 +1,12 @@
 /* Font Declarations*/
 @font-face {
 	font-family: 'Noto Mono';
-	src: url("fonts/NotoMono-Regular");
+	src: url("./fonts/NotoMono-Regular.ttf");
 }
 
 @font-face {
 	font-family: 'Noto Sans UI';
-	src: url("fonts/NotoSansUI-Regular")
+	src: url("./fonts/NotoSansUI-Regular.ttf")
 }
 
 
@@ -44,7 +44,7 @@ ul.topnav li a:hover {background-color: #808080}
 ul.topnav li.icon {display: none;}
 /* active {background-color: #96cefd} */
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:720px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -52,7 +52,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:720px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -73,6 +73,7 @@ ul.topnav li.icon {display: none;}
 div.content {
     background-color: white;
     width: 80%;
+    word-break: normal;
     white-space: normal;
 }
 div.content section {
