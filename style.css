@@ -42,7 +42,7 @@ ul.topnav li a {
 }
 ul.topnav li a:hover {background-color: #808080}
 ul.topnav li.icon {display: none;}
-.active {background-color: #96cefd}
+/* active {background-color: #96cefd} */
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
@@ -73,7 +73,6 @@ ul.topnav li.icon {display: none;}
 div.content {
     background-color: white;
     width: 80%;
-    word-break: break-all;
     white-space: normal;
 }
 div.content section {
@@ -90,7 +89,6 @@ div.content p {
   color: #808080;
   font-size: 16px;
   font-family: 'Noto Mono', Arial, sans-serif;
-  line-height: 0.8px;
   text-decoration: none;
   text-align: center;
   white-space: normal;
@@ -102,7 +100,6 @@ div.content h1 {
   line-height: 0.8px;
   text-decoration: none;
   text-align: center;
-  white-space: nowrap;
 }
 div.content h2 {
   color: #96cefd;
@@ -111,5 +108,4 @@ div.content h2 {
   line-height: 0.8px;
   text-decoration: none;
   text-align: center;
-  white-space: nowrap;
 }
