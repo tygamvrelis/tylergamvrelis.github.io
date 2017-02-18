@@ -16,7 +16,7 @@ ul.topnav {
     top: 0;
     width: 100%;
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 50% 0;
     padding: 0;
     overflow: hidden;
     background-color: #b8b8b8;
@@ -69,10 +69,12 @@ ul.topnav li.icon {display: none;}
   }
 }
 
+
 /* Content */
 div.content {
+    padding-top: 60px;
     background-color: white;
-    width: 80%;
+    width: 100%;
     word-break: normal;
     white-space: normal;
 }
