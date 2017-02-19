@@ -14,6 +14,7 @@
 ul.topnav {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   min-width: 330px;
   list-style-type: none;
@@ -23,11 +24,10 @@ ul.topnav {
   opacity: 0.92;
   background-color: #b8b8b8;
 }
-ul.topnav li {float: right; white-space: nowrap;}
+ul.topnav li {float: right; white-space: nowrap; vertical-align: middle;}
 ul.topnav li a {
   display: inline-block;
   color: white;
-  vertical-align: bottom;
   text-align: center;
   padding: 14px 22px;
   text-decoration: none;
@@ -35,8 +35,8 @@ ul.topnav li a {
   font-family: 'Noto Mono', Verdana, sans-serif;;
   font-size: 20px;
 }
-ul.topnav li a:hover {background-color: #808080; opacity: 1;} /*#833333 is a cool color*/
-ul.topnav li.icon {display: none;}
+ul.topnav li a:hover {background-color: #808080; opacity: 1;}
+ul.topnav li.menubtn {display: none;}
 /* .active {background-color: #96cefd} */
 #nameAndLogo {
   float: left;
@@ -51,13 +51,13 @@ ul.topnav li.icon {display: none;}
 }
 @media screen and (max-width:1200px) {
   ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
+  ul.topnav li.menubtn {
     float: right;
     display: inline-block;
   }
 }
 @media screen and (max-width:1200px) {
-  ul.topnav.responsive li.icon {
+  ul.topnav.responsive li.menubtn {
     position: absolute;
     width: initial;
     right: 0;
@@ -76,7 +76,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 @media screen and (max-width: 680px){
-    ul.topnav {position: relative;}
+  ul.topnav {position: relative;}
 }
 
 
@@ -117,4 +117,7 @@ div.content h2 {
   font-family: 'Noto Sans UI', Arial, sans-serif;
   text-decoration: none;
   text-align: center;
+}
+@media screen and (max-width: 680px){
+  div.content {padding-top: 0px;}
 }

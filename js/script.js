@@ -8,3 +8,15 @@ function resize() {
         x.className = "topnav";
     }
 }
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches(".menubtn")) {
+
+      var dropdowns = document.getElementById("myTopnav");
+      if (dropdowns.classList.contains('responsive')) {
+          dropdowns.classList.remove('responsive');
+      }
+    }
+    
+}
