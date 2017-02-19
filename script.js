@@ -8,3 +8,4 @@ function resize() {
         x.className = "topnav";
     }
 }
+
