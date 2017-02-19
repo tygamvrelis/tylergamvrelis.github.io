@@ -11,6 +11,7 @@ function resize() {
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function (event) {
+    // For future reference, '.menubtn' is the classname in the html
     if (!event.target.matches(".menubtn")) {
 
       var dropdowns = document.getElementById("myTopnav");
