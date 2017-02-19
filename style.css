@@ -1,44 +1,40 @@
 /* Font Declarations*/
 @font-face {
-	font-family: 'Noto Mono';
-	src: url("./fonts/NotoMono-Regular.ttf");
+  font-family: 'Noto Mono';
+  src: url("./fonts/NotoMono-Regular.ttf");
 }
 
 @font-face {
-	font-family: 'Noto Sans UI';
-	src: url("./fonts/NotoSansUI-Regular.ttf")
+  font-family: 'Noto Sans UI';
+  src: url("./fonts/NotoSansUI-Regular.ttf")
 }
 
 
 /* Nav menu */
 ul.topnav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0 0 50% 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #b8b8b8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b8b8b8;
 }
 ul.topnav li {float: left;}
-ul.topnav li p {
+ul.topnav li img {
   display: inline-block;
-  text-align: center;
-  color: white;
-  padding: 0px 16px;
-  text-decoration: none;
-  font-family: "Noto Mono";
-  font-size: 16px;
+  vertical-align: text-bottom;
 }
 ul.topnav li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.4s;
-    font-size: 16px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.4s;
+  font-family: "Noto Mono";
+  font-size: 16px;
 }
 ul.topnav li a:hover {background-color: #808080}
 ul.topnav li.icon {display: none;}
@@ -72,11 +68,11 @@ ul.topnav li.icon {display: none;}
 
 /* Content */
 div.content {
-    padding-top: 60px;
-    background-color: white;
-    width: 100%;
-    word-break: normal;
-    white-space: normal;
+  padding-top: 60px;
+  background-color: white;
+  width: 100%;
+  word-break: normal;
+  white-space: normal;
 }
 div.content section {
   margin-top: 20px;
