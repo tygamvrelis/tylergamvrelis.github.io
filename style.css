@@ -22,10 +22,6 @@ ul.topnav {
   background-color: #b8b8b8;
 }
 ul.topnav li {float: left;}
-ul.topnav li img {
-  display: inline-block;
-  vertical-align: text-bottom;
-}
 ul.topnav li a {
   display: inline-block;
   color: white;
@@ -37,6 +33,10 @@ ul.topnav li a {
   font-size: 16px;
 }
 ul.topnav li a:hover {background-color: #808080}
+ul.topnav li a img {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
 ul.topnav li.icon {display: none;}
 /* active {background-color: #96cefd} */
 
