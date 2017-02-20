@@ -1,12 +1,12 @@
 /* Font Declarations*/
 @font-face {
   font-family: 'Noto Mono';
-  src: url("./fonts/NotoMono-Regular.ttf");
+  src: url("/fonts/NotoMono-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Noto Sans UI';
-  src: url("./fonts/NotoSansUI-Regular.ttf")
+  src: url("/fonts/NotoSansUI-Regular.ttf")
 }
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Tyler Gamvrelis
+title: Tyler Gamvrelis | Personal Website
 layout: default
 ---
 <div class="content" align="center">

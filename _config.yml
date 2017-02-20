@@ -1,2 +1,39 @@
-name: Tyler Gamvrelis
+#### Basics
+name: Tyler Gamvrelis | Personal Website
+description: Things I'd like you to know about me, plus a few goodies!
+author: Tyler Gamvrelis
+author_email: ty.gamvrelis@gmail.com
+footer-links:
+  github: tygamvrelis
+  linkedin: tylergamvrelis
+
+#### Where things are:
+source: .
+destination: ./_site
+layouts_dir: ./_layouts
+collections: null
+include: ['_pages']
+
+
+#### Under the hood stuff
 markdown: kramdown
+category_dir: /
+baseurl:
+url: http://tylergamvrelis.com
+repository: tygamvrelis/tylergamvrelis.github.io
+gems: ['jekyll-github-metadata']
+
+#### kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+
+#### Files not to be excluded in site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
