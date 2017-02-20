@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tyler Gamvrelis | Personal Website
 layout: default
 ---
