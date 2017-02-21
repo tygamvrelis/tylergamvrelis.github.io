@@ -9,6 +9,7 @@
 
   <!-- link to main stylesheet -->
   <link rel="stylesheet" href="./css/main.css"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="./myIcon.ico" type="image/x-icon"/>
   <link rel="icon" href="./images/myIcon.png" type="image/png"/>
   <script src="./js/script.js"></script>
@@ -26,7 +27,7 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#work">Work Experience</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#about">About Me</a></li>
       <li class="menubtn">
         <a href="javascript:void(0);" class="menubtn" onclick="resize()">&#9776;</a>
       </li>
@@ -34,6 +35,8 @@
   </div>
   <div class="container" align="center">
     {{ content }}
+    {% include footer.html %}
   </div>
+  
 </body>
 </html>

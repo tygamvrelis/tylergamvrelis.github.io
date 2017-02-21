@@ -127,8 +127,7 @@ div.content a {
   white-space: normal;
 }
 .list {
-    width: 600px
-
+    width: 960px
 }
 div.content li {
   display: block;
@@ -144,7 +143,7 @@ div.content li {
   display: inline-block;
   color: #833333;
   font-size: 20px;
-  font-family: 'Noto Mono', Verdana, sans-serif;
+  font-family: 'Noto Sans UI', Arial, sans-serif;
   list-style-type: none;
   text-decoration: solid;
   margin-left: auto;
@@ -152,4 +151,38 @@ div.content li {
 }
 @media screen and (max-width: 680px){
   div.content {padding-top: 0px;}
+}
+
+
+/* Footer */
+footer {
+  background-color: #b8b8b8;
+  opacity: 0.95;
+  color: white;
+  text-decoration: none;
+  font-family: 'Noto Sans UI', Arial, sans-serif;
+  font-size: 16px;
+}
+footer ul {
+  display: block;
+  list-style-type: none;
+  text-align: left;
+}
+footer ul li a {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+footer p {
+  color: #808080;
+  text-decoration: inherit;
+  font-family: inherit;
+  font-size: 12px;
+}
+footer p a {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }

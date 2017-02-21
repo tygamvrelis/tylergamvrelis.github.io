@@ -1,0 +1,22 @@
+<footer>
+  <ul>
+    {% if site.linkedin_username %}
+    <li>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </a>
+    </li>
+    {% endif %}
+    {% if site.github_username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}">
+        <i class="fa fa-github"></i> GitHub
+      </a>
+    </li>
+    {% endif %}
+
+    <p>A big thank you to <a href="https://pages.github.com/">GitHub pages</a>
+    for hosting the site files and <a href="https://jekyllrb.com/">Jekyll</a>
+    for keeping them organized</p>
+  </ul>
+</footer>

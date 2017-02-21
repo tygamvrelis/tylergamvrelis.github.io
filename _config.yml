@@ -3,9 +3,8 @@ name: Tyler Gamvrelis | Personal Website
 description: Things I'd like you to know about me, plus a few goodies!
 author: Tyler Gamvrelis
 author_email: ty.gamvrelis@gmail.com
-footer-links:
-  github: tygamvrelis
-  linkedin: tylergamvrelis
+github_username: tygamvrelis
+linkedin_username: tylergamvrelis
 
 #### Where things are:
 source: .
