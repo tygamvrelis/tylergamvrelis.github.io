@@ -84,7 +84,7 @@ ul.topnav li.menubtn {display: none;}
 div.content {
   padding-top: 60px;
   background-color: white;
-  width: 100%;
+  width: 960px;
 }
 div.content section {
   margin-top: 20px;
@@ -117,6 +117,38 @@ div.content h2 {
   font-family: 'Noto Sans UI', Arial, sans-serif;
   text-decoration: none;
   text-align: center;
+}
+div.content a {
+  color: #808080;
+  font-size: 16px;
+  font-family: 'Noto Mono', Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+}
+.list {
+    width: 600px
+
+}
+div.content li {
+  display: block;
+  color: #808080;
+  font-size: 16px;
+  font-family: 'Noto Mono', Verdana, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: auto;
+  text-align: left;
+}
+.listele {
+  display: inline-block;
+  color: #833333;
+  font-size: 20px;
+  font-family: 'Noto Mono', Verdana, sans-serif;
+  list-style-type: none;
+  text-decoration: solid;
+  margin-left: auto;
+  text-align: left;
 }
 @media screen and (max-width: 680px){
   div.content {padding-top: 0px;}
