@@ -49,14 +49,14 @@ ul.topnav li.menubtn {display: none;}
 #nameAndLogo a:hover{
     background-color: #833333;
 }
-@media screen and (max-width:960px) {/*1200*/
+@media screen and (max-width:1000px) {/*960*/
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.menubtn {
     float: right;
     display: inline-block;
   }
 }
-@media screen and (max-width:960px) {
+@media screen and (max-width:1000px) {
   ul.topnav.responsive li.menubtn {
     position: absolute;
     width: initial;
@@ -84,7 +84,7 @@ ul.topnav li.menubtn {display: none;}
 div.content {
   padding-top: 60px;
   background-color: white;
-  width: 960px;
+  width: 96%;
 }
 div.content section {
   margin-top: 20px;
@@ -126,30 +126,32 @@ div.content a {
   text-align: center;
   white-space: normal;
 }
-.list {
-    width: 960px
-}
-div.content li {
+div.content ol {
   display: block;
   color: #808080;
   font-size: 16px;
   font-family: 'Noto Mono', Verdana, sans-serif;
-  list-style-type: none;
+  list-style-type: decimal;
   text-decoration: none;
   margin-left: auto;
   text-align: left;
+  counter-reset: item;
 }
-.listele {
-  display: inline-block;
+div.content li {
+  display: block;
+}
+div.content li:before {
+  content: "(" counters(item, ".") ") ";
+  counter-increment: item;
   color: #833333;
   font-size: 20px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
-  list-style-type: none;
   text-decoration: solid;
-  margin-left: auto;
-  text-align: left;
 }
-@media screen and (max-width: 680px){
+@media screen and (min-width: 1000px) {
+  .list {width: 80%;}
+}
+@media screen and (max-width: 680px) {
   div.content {padding-top: 0px;}
 }
 
