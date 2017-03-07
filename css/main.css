@@ -21,23 +21,27 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  opacity: 0.92;
-  background-color: #b8b8b8;
+  background-color: #6495ED;
+  z-index: 999999;
 }
-ul.topnav li {float: right; white-space: nowrap; vertical-align: middle;}
+ul.topnav li { 
+  float: right;
+  white-space: nowrap;
+  vertical-align: middle;
+}
 ul.topnav li a {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 22px;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.3s;
   font-family: 'Noto Mono', Verdana, sans-serif;;
   font-size: 18px;
 }
-ul.topnav li a:hover {background-color: #808080; opacity: 1;}
+ul.topnav li a:hover {background-color: #B7410E;}
 ul.topnav li.menubtn {display: none;}
-/* .active {background-color: #96cefd} */
+
 #nameAndLogo {
   float: left;
 }
@@ -47,9 +51,9 @@ ul.topnav li.menubtn {display: none;}
   margin: 0;
 }
 #nameAndLogo a:hover{
-    background-color: #833333;
+    background-color: #B7410E;
 }
-@media screen and (max-width:1000px) {/*960*/
+@media screen and (max-width:1000px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.menubtn {
     float: right;
@@ -80,10 +84,21 @@ ul.topnav li.menubtn {display: none;}
 }
 
 
+/* Background */
+body {
+  background-image: url("/images/milky_way.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+
 /* Content */
 div.content {
-  padding-top: 60px;
+  margin-top: 80px;
   background-color: white;
+  opacity: 0.7;
   width: 96%;
 }
 div.content section {
@@ -96,8 +111,11 @@ div.content section {
   padding-bottom: 10px;
   padding-left: 20px;
 }
+div.content img {
+  opacity: 1 !important;
+}
 div.content p {
-  color: #808080;
+  color: #000000;
   font-size: 16px;
   font-family: 'Noto Mono', Verdana, sans-serif;
   text-decoration: none;
@@ -105,21 +123,25 @@ div.content p {
   white-space: normal;
 }
 div.content h1 {
-  color: #000000;
+  color: #6495ED;
   font-size: 36px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
   text-decoration: none;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 6px;
 }
 div.content h2 {
-  color: #96cefd;
+  color: #B7410E;
   font-size: 22px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
   text-decoration: none;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 6px;
 }
 div.content a {
-  color: #808080;
+  color: #000000;
   font-size: 16px;
   font-family: 'Noto Mono', Verdana, sans-serif;
   text-decoration: none;
@@ -128,7 +150,7 @@ div.content a {
 }
 div.content ol {
   display: block;
-  color: #808080;
+  color: #000000;
   font-size: 16px;
   font-family: 'Noto Mono', Verdana, sans-serif;
   list-style-type: decimal;
@@ -143,7 +165,7 @@ div.content li {
 div.content li:before {
   content: "(" counters(item, ".") ") ";
   counter-increment: item;
-  color: #833333;
+  color: #B7410E;
   font-size: 20px;
   font-family: 'Noto Sans UI', Arial, sans-serif;
   text-decoration: solid;
@@ -154,11 +176,16 @@ div.content li:before {
 @media screen and (max-width: 680px) {
   div.content {padding-top: 0px;}
 }
+div.content .textlink {
+  color: #B7410E;
+  font-family: 'Noto Mono', Verdana, sans-serif;
+  text-decoration-style: solid;
+}
 
 
 /* Footer */
 footer {
-  background-color: #b8b8b8;
+  background-color: #6495ED;
   opacity: 0.95;
   color: white;
   text-decoration: none;
@@ -177,7 +204,7 @@ footer ul li a {
   font-size: inherit;
 }
 footer p {
-  color: #808080;
+  color: #FFFFFF;
   text-decoration: inherit;
   font-family: inherit;
   font-size: 12px;
